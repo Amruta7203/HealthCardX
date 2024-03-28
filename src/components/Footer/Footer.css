@@ -1,0 +1,138 @@
+.footer {
+    background-color: var(--grey);
+    width: 100%;
+    min-height: 300px;
+    z-index: 1000;
+}
+
+.footer-l {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Adamina', sans-serif;
+    font-size: 23px;
+    color: white;
+    padding-left: 160px;
+    padding-top: 50px;
+}
+
+.phn-no {
+    font-family: 'Adamina', sans-serif;
+    font-size: 16.5px;
+    color: rgb(220, 215, 215);
+    padding-left: 160px;
+    padding-top: 50px;
+    text-decoration: underline;
+    /* padding-bottom: 0; */
+}
+
+.phn-no:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.line {
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 2px;
+    background-color: rgb(220, 215, 215);
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-middle .text {
+    font-family: 'Adamina', sans-serif;
+    color: white;
+    margin-right: 70px;
+}
+
+.list li{
+    font-family: 'Adamina', sans-serif;
+    color: rgb(220, 215, 215);
+    font-size: 12px;
+    list-style: none;
+    padding: 3px;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-r {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-r .text {
+    font-family: 'Adamina', sans-serif;
+    color: white;
+}
+
+.footer-r .sub-text {
+    font-family: 'Adamina', sans-serif;
+    color: rgb(220, 215, 215);
+    font-size: 12px;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.email:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.query-box {
+    font-family: 'Adamina', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.send-btn {
+    border: none;
+    font-family: 'Adamina', sans-serif;
+    background-color: var(--darkblue);
+    color: white;
+}
+
+.send-btn:hover {
+    background-color: white;
+    color: var(--darkblue);
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: var(--darkblue);
+    padding: 20px;
+    margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.bottom-line {
+    font-family: 'Adamina', sans-serif;
+    color: rgba(255,255,255,0.8);
+    font-size: 16px;
+}
+
+.copyright {
+    font-family: 'Adamina', sans-serif;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+}

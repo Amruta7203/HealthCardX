@@ -1,0 +1,189 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.left-hero {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* .stroke-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 3px;
+} */
+
+.hero-subText {
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
+    padding-left: 4rem;
+    max-width: 75%;
+}
+
+.register-btn {
+    background-color: var(--lightblue);
+    color: white;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.register-btn:hover {
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.hero-logintext {
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
+    padding-left: 4rem;
+    max-width: 80%;
+}
+
+.login-btn {
+    background-color: rgb(49, 216, 177);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.login-btn:hover {
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.mask0 {
+    background-color: white;
+    width: 170px;
+    height: 400px;
+    margin-right: 450px;
+    border-radius: 100px;
+    margin-top: 20px;
+    /* padding: 100px; */
+}
+
+.image0{
+    width: 170px;
+    height: 400px;
+    border-radius: 100px;
+}
+
+.mask1 {
+    background-color: white;
+    width: 170px;
+    height: 270px;
+    margin-right: 450px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 25px;
+    /* padding: 100px; */
+}
+
+.image1 {
+    width: 170px;
+    height: 270px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.mask2 {
+    /* position: relative; */
+    background-color: white;
+    width: 170px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    top: -17.5%;
+    right: 3%;
+    margin-right: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-radius: 100px;
+
+}
+
+.mask3{
+    background-color: white;
+    width: 170px;
+    height: 400px;
+    float: right;
+    position: absolute;
+    bottom: -20.5%;
+    right: 3%;
+    margin-right: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.image3 {
+    width: 170px;
+    height: 400px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px; 
+}
+
+.mask4{
+    background-color: white;
+    width: 170px;
+    height: 300px;
+    float: right;
+    position: absolute;
+    top: 15.5%;
+    right: -13.5%;
+    margin-right: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-radius: 100px;
+}
+
+
+.image4{
+    width: 170px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+.mask5{
+    background-color: white;
+    width: 170px;
+    height: 300px;
+    float: right;
+    position: absolute;
+    bottom: -20.5%;
+    right: -13.5%;
+    margin-right: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.image5 {
+    width: 170px;
+    height: 300px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
